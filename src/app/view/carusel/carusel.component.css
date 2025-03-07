@@ -1,0 +1,130 @@
+p{
+    font-size: 11px
+}
+.strong-amarillo{
+    color: #FE9405
+}
+.cont-footer{
+    background: #ededed;
+}
+.img-icons{
+    position: relative;
+    top: -17px;
+    left: 0;
+}
+.card{
+    width: auto;
+    height: 350px;
+    margin: 0 .5rem;
+    box-shadow: 0 0 5px #ccc;
+}
+.carousel-inner{
+    display: flex;
+}
+.card-text2{
+    color:  #00c83c;
+}
+.checkbox{
+    width: 20px; 
+    height: 20px;
+    background-color: #00c83c;
+    border: 2px solid #00c83c;
+    border-radius: 5px;
+    background-color: #fff; 
+    appearance: none; 
+    -webkit-appearance: none; 
+    cursor: pointer; 
+}
+.checkbox:checked {
+    background-color: #00c83c; 
+    border-color: #01ab34; 
+}
+.linea-color{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    height: 4px;
+
+}
+.verde{
+    background: #00c83c94;
+}
+.azul{
+    background: #B5DDE6;
+}
+.azul-claro{
+    background: #67ACBD;
+}
+.naranja{
+    background: #FF9460;
+}
+
+
+
+.btn-derecha{
+    position: relative;
+    top: 0;
+    left: -50px;
+    transform: rotate(180deg);
+
+}
+.btn-izquierda{
+    position: relative;
+    top: 0;
+    left: 50px;
+}
+.card-ultima {
+    background-image: url('../../../../public/fondo-card (2).png');
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+.btn-a{
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    color: #FFF;
+    background: #00c83c;
+}
+.btn-a:hover{
+    background: #00c83ca2;
+}
+.btn-g{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+    background: #cecece;
+}
+
+.btn-g:hover{
+    background: #bab9b9eb;
+}
+
+.carusel{
+    padding: 8rem;
+    padding-bottom: 3rem;
+}
+
+
+@media screen and (max-width:577px){
+    .carusel{
+        padding: 0;
+    }
+
+}
+
+
+@media screen and (max-width:362px){
+
+   
+
+}
+
+
+
+

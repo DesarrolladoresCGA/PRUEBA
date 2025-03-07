@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "youtube",
+=======
+  "name": "prueba",
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,8 +23,15 @@
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
     "bootstrap": "^5.3.3",
+<<<<<<< HEAD
     "bootstrap-icons": "^1.11.3",
     "rxjs": "~7.8.0",
+=======
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1",
+    "rxjs": "~7.8.0",
+    "swiper": "^11.2.1",
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
   },

@@ -1,0 +1,52 @@
+<swiper-container class="carusel"
+    [slides-per-view]="1"
+    [space-between]="20"
+    [navigation]="true"
+    [pagination]="{ clickable: true }"
+    [loop]="true"
+    [breakpoints]="breakpoints">
+    <swiper-slide *ngFor="let card of cards; let i = index">
+        <div class="card">
+            <div class="card-body">
+                <div class="col-12 d-flex align-items-center justify-content-end mb-3">
+                    <input class="checkbox" type="checkbox">
+                </div>
+                <div class="col-12 d-block text-start mb-4 p-2">
+                    <h5 class="card-title fs-5">{{ card.nameProduct }}</h5>
+                    <p class="card-text fs-6">#{{ card.numberProduct }}</p>
+                    <hr>
+                    <h5 class="card-title fs-5 p-0 m-0">Ya cuentas con:</h5>
+                    <p class="card-text2 fs-6 fw-bold p-0 m-0">
+                        ${{ card.balanceProduct }}
+                    </p>
+                </div>
+                <div class="col-12 cont-footer">
+                    <img *ngIf="i === 0" class="img-icons" src="Happy.svg" alt="">
+                    <img *ngIf="i === 1" class="img-icons" src="Trofeo.svg" alt="">
+                    <img *ngIf="i === 2" class="img-icons" src="Handheart.svg" alt="">
+                    <img *ngIf="i === 3" class="img-icons" src="Handheart.svg" alt="">
+                    <p class="text-center p-0 m-0">{{ card.detaildProduct }}</p>
+                    <p class="text-center p-0 pb-2">
+                        Te recomendamos aportar <strong class="strong-amarillo">${{ card.balanceProduct }}</strong>
+                        <strong> mensuales</strong> para lograrlo en
+                        <strong>diciembre del 2022.</strong>
+                    </p>
+                </div>
+                <div class="linea-color" [ngClass]="{verde: i === 0,azul: i === 1,'azul-claro': i === 2,naranja: i === 3}"></div>
+            </div>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <div class="card card-ultima" style="width: 16rem;">
+            <div class="card-body">
+                <div class="col-12 d-flex align-items-center justify-content-center mt-5">
+                    <a class="btn-a mt-5" href="#">EXPLORA AHORA</a>
+                </div>
+                <div class="linea-color naranja"></div>
+            </div>
+        </div>
+    </swiper-slide>
+</swiper-container>
+<div class="mt-5 mt-md-1">
+    <a class="btn-g" href="#">ASOCIAR A OBJETIVO</a>
+</div>

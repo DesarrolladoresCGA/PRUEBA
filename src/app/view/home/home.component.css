@@ -1,0 +1,148 @@
+
+.img-superior{
+    height: 250px;
+    background-image: url('../../../../public/superior.png');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+}
+.card-superior{
+    position: relative;
+    top: -170px;
+    left: 0;
+    width: 30rem;
+    box-shadow: 0 0 5px #cecece;
+    background-image: url('../../../../public/paisaje.png');
+    background-position: right bottom; 
+    background-repeat: no-repeat; 
+    background-size: 110px; 
+}
+a{
+    color: #00c83c;
+}
+.parrafo-p{
+    font-size: 11px;
+}
+.parrafo-Azul{
+    background: #A5D7e1;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px;
+    font-weight: 700;
+}
+.parrafo-Amarillo{
+    background: #FECD72;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px;
+    font-weight: 700;
+}
+.parrafo-verde{
+    background: #00c83c6e;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px;
+    font-weight: 700;
+}
+.text-ligero{
+    font-size: 13px;
+    font-weight: 400;
+}
+.fs-7{
+    font-size: 13px;
+}
+.strong-amarillo{
+    color: #FE9405
+}
+.con-vamos{
+    height: 519px;
+    position: relative; 
+    top: -80px;
+    left: 0;
+    background-image: url('../../../../public/stock 2.png');
+    background-position: right bottom; 
+    background-repeat: no-repeat; 
+}
+.con-carusel{
+    position: relative;
+    top: -350px;
+    left: 0;
+}
+.carusel{
+    position: relative; 
+    top: -100px;
+    left: 0;
+}
+footer{
+    height: 388px;
+    position: relative;
+    top: -350px;
+    left: 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+}
+
+@media screen and (max-width:1025px){
+
+
+}
+  
+
+@media screen and (max-width:577px){
+    .con-vamos{
+        position: relative; 
+        top: 40px;
+    }
+    .con-carusel{
+        position: relative;
+        top: -150px;
+    }
+
+    .carusel{
+        position: relative; 
+        top: 10px;
+        left: 0;
+    }
+
+    .text-ligero{
+        font-size: 22px;
+    }
+
+    .parrafo-Azul{
+
+        font-size: 18px;
+  
+    }
+    .parrafo-Amarillo{
+        font-size: 18px;
+    }
+    .parrafo-verde{
+        font-size: 18px;
+    }
+    .card-title{
+        font-size: 22px;
+    }
+    .parrafo-p{
+        font-size: 15px;
+    }
+    footer{
+        position: relative;
+        top: -100px;
+  
+    }
+}
+
+
+@media screen and (max-width:362px){
+
+    .fs-4{
+        font-size: 12px;
+    }
+    .img-superior p{
+        font-size: 12px;
+    }
+
+}
+
+
+

@@ -1,0 +1,43 @@
+<div class="header d-flex align-items-center justify-content-between" >
+    <div class="d-flex align-items-center justify-content-center" (click)="toggleDropdownNo()">
+        <img src="Group 123.svg" class="logo">
+        <div class="d-none d-md-flex  mt-2 vr mx-3 bg-black"></div>
+        <div class="d-none d-md-flex align-items-center justify-content-center text-center" id="ocultar">
+            <h2 class="logo-texto">Plan Financiamiento Digital - FPX</h2>
+        </div>
+    </div>
+    <div class="d-flex  align-items-center justify-content-center gap-4 " >
+        <div class="d-none d-md-flex align-items-center gap-2" id="ocultar" >
+            <img src="Happy.svg">
+            <a href="#">Tu Financial Planner</a>
+        </div>
+        <div class="d-none d-md-flex d-sm-none align-items-center gap-2" id="ocultar">
+            <img  src="hand3.svg">
+            <a href="#">Aportes</a>
+        </div>
+        <img src="comp faq.svg" (click)="toggleDropdownNo()">
+        <!-- dropdown responsive -->
+        <div class="dropdown " id="menu-responsive" (click)="toggleDropdown()">
+            <img class="cursor-pointer dropdown-toggle " src="ellipsis-solid.svg" id="dropdownMenu2">
+            <div class="dropdown-menu" [ngClass]="{'show': isDropdownOpen}" aria-labelledby="dropdownMenu2">
+                <div class="d-flex align-items-center px-4">
+                    <h6 class="logo-texto">Plan Financiamiento Digital - FPX</h6>
+                </div>
+                <hr>
+                <button class="dropdown-item" type="button">
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="Happy.svg">
+                        <a href="#">Tu Financial Planner</a>
+                    </div>
+                </button>
+                <button class="dropdown-item" type="button">
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="hand3.svg">
+                        <a href="#">Aportes</a>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>

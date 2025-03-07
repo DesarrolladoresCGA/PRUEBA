@@ -1,17 +1,28 @@
+<<<<<<< HEAD
 import { Component, EventEmitter, Output } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./layouts/header/header.component";
 import { FooterComponent } from "./layouts/footer/footer.component";
 import { SidebarComponent } from "./layouts/sidebar/sidebar.component";
+=======
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
 
 @Component({
   selector: 'app-root',
   standalone: true,
+<<<<<<< HEAD
   imports: [RouterOutlet, HeaderComponent, FooterComponent, SidebarComponent],
+=======
+  imports: [RouterOutlet],
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+<<<<<<< HEAD
 
   title = 'youtube';
   aside : string;
@@ -47,4 +58,7 @@ export class AppComponent {
     }
    
   }
+=======
+  title = 'prueba';
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
 }

@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "youtube": {
+=======
+    "prueba": {
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/youtube",
+=======
+            "outputPath": "dist/prueba",
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -28,12 +36,23 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+<<<<<<< HEAD
               "node_modules/bootstrap-icons/font/bootstrap-icons.min.css",
               "src/styles.css"
             ],
             "scripts": [
                "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+=======
+              "node_modules/swiper/swiper-bundle.min.css",
+              "src/styles.css"
+            ],
+            "scripts": [
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/jquery/dist/jquery.min.js"
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
             ]
           },
           "configurations": {
@@ -64,10 +83,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "youtube:build:production"
             },
             "development": {
               "buildTarget": "youtube:build:development"
+=======
+              "buildTarget": "prueba:build:production"
+            },
+            "development": {
+              "buildTarget": "prueba:build:development"
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
             }
           },
           "defaultConfiguration": "development"
@@ -90,9 +116,22 @@
               }
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.css"
             ],
             "scripts": []
+=======
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/swiper/swiper-bundle.min.css",
+              "src/styles.css"
+            ],
+            "scripts": [
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
           }
         }
       }

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Youtube
+=======
+# Prueba
+>>>>>>> 125d05e1bf9012643a0e9be524ac4906f421147a
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
 
