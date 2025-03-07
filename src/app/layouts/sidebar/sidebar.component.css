@@ -1,0 +1,34 @@
+.co{
+    position: absolute;
+    top: 6px;
+    right: 50px;
+}
+.img-suscription{
+    width: 25px;
+    height: 25px;
+}
+.punto{
+    width: 4px; 
+    height: 4px;
+}
+li{
+    cursor: pointer;
+}
+
+@media (max-width: 1025px){
+    .menu-max, .menu-max2{
+        width: 220px;
+        height: 100vh;
+        position: fixed;
+        top: 60px;
+        left: -100vb;
+        z-index: 999;
+        transition: all 0.3s ease-in-out;
+
+    }
+
+    .menu-max2{
+        left: 0;
+        transition: all 0.3s ease-in-out;
+    }
+}

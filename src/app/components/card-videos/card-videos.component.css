@@ -1,0 +1,46 @@
+.img-video-user{
+    width: 35px;
+    height: 35px;
+}
+.bi-three-dots-vertical{
+    position: relative;
+    top: 0;
+    right: 5px;
+}
+.cont-gadgets{
+    display: none;
+}
+.sound, .sound2, .cc, .cc2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.cc{
+    top: 60px;
+    right: 10px;
+}
+.sound2{
+    top: 60px;
+    left: 43%;
+
+}
+.cc2{
+    left: 43%;
+}
+video{
+    cursor: pointer;
+}
+
+@media(max-width: 560px){
+    .sound2{
+        left: 40%;
+    
+    }
+    .cc2{
+        left: 40%;
+
+    }
+}
+

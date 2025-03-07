@@ -1,0 +1,102 @@
+<div class="row">
+    <div class="col-12 col-xl-8 py-2" >
+        <video   class="embed-responsive-item rounded"   controls width="100%">
+            <source  [src]="idVideo" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+          </video>
+          
+        <div>
+            <h5>Some quick example text to build on the card title and make</h5>
+        </div>
+        {{idVideo}}
+        <div class="d-block d-md-flex align-items-center">
+            <div class="col-12 col-md-6 mt-2">
+                <div class="d-flex align-items-center justify-content-between ">
+                    <div class="d-flex align-items-center  gap-1 ">
+                        <img class="img-fluid rounded-circle profile_video" src="./img/1.png" alt="">
+                        <div class="d-block">
+                            <div class="d-flex align-items-center gap-1">
+                                <a href="#" class="text-white text-decoration-none fs-6">Go somewhere</a>
+                                <i class="bi bi-check-circle-fill text-secondary fss-5 mt-1"></i>
+                            </div>
+                            <div>
+                                <a href="#" class="text-secondary text-decoration-none fss-5">11 K vistas hace 1 año</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dropdown bg-dark-100 text-white">
+                        <button class="btn btn-dark-100 dropdown-toggle " type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="bi bi-bell-fill fs-6"> Suscrito </i>
+
+                        </button>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item d-flex align-items-center text-white gap-2" href="#"><i
+                                        class="bi bi-bell-fill fs-4"></i>
+                                    <h6 class="mt-1">Anular</h6>
+                                </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center text-white gap-2" href="#"><i
+                                        class="bi bi-bell fs-4"></i>
+                                    <h6 class="mt-1">Personalizadas</h6>
+                                </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center text-white gap-2" href="#"><i
+                                        class="bi bi-bell-slash fs-4"></i>
+                                    <h6 class="mt-1">Anular</h6>
+                                </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center text-white gap-2" href="#"><i
+                                        class="bi bi-person-x fs-4"></i>
+                                    <h6 class="mt-1">Anular</h6>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-2">
+                <div class="d-flex align-items-center justify-content-between justify-content-md-end gap-1">
+                    <div class="d-flex">
+                        <button class="btn bg-dark-100 btn-lik text-white">
+                            <i class="bi bi-hand-thumbs-up text-white"> 224</i>
+                        </button>
+                        <button class="btn bg-dark-100 btn-lik2 text-white">
+                            <i class="bi bi-hand-thumbs-down text-white"></i>
+                        </button>
+                    </div>
+                    <button class="d-none d-md-flex btn bg-dark-100 rounded-pill text-white">
+                        <i class="fss-4">Compartir </i> 
+                        <i class="bi bi-reply-fill"></i>
+                    </button>
+                    <button class="btn bg-dark-100 rounded-pill text-white text-center">
+                        <i class="bi bi-bookmark fss-4">Guardar</i>
+                    </button>
+                    <button class="btn bg-dark-100 rounded-circle text-white text-center">
+                        <h6>...</h6>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-12 col-xl-4 p-2">
+        <div class="card bg-dark text-white border-white border-1">
+            <img src="./img/banner.jpg" class="card-img-top banner img-fluid" alt="banner">
+            <div class="card-body d-flex aling-items-center justify-content-between">
+                <div class="d-block">
+                    <h5 class="card-title fss-4">Impulsado por Desarrollo web</h5>
+                    <p class="card-text fss-5">Patrocinado por.....</p>
+                </div>
+                <div>
+                    <a href="#" class="btn btn-primary fss-5 rounded-sm">Más info</a>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <!-------videos --------->
+        <div class="container-fluid">
+            <app-card-videos [canVideos]="8" [tipoVideo]="'h2'"></app-card-videos>
+        </div>
+
+    </div>
+</div>

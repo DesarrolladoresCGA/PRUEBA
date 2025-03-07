@@ -1,0 +1,48 @@
+.btn-filter{
+    height: 30px;
+}
+
+
+.contenedor-principal {
+    position: relative; 
+    width: 100%; 
+    overflow: hidden; 
+  }
+  
+  .con-filter {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+  
+  .con-filter::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .btn-filter {
+    flex: 0 0 auto; 
+  }
+  
+  .navegacion {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  .navegacion button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 3px 6px;
+    cursor: pointer;
+    pointer-events: auto; 
+    border-radius: 50%;
+  }
+  

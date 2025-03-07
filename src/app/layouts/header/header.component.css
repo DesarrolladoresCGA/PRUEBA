@@ -1,0 +1,40 @@
+.btn-micro{
+    width: 40px;
+    height: 40px;
+    background: #454545;
+    border: none;
+}
+
+.btn-micro:hover{
+    background: #616161;
+}
+.input-group input{
+    width: 600px;
+}
+.num-notification{
+    position: absolute;
+    top: 15px;
+    right: 70px;
+    width: 15px;
+    height: 15px;
+}
+.profile{
+    width: 35px;
+}
+.btn-youtube, .btn-menu{
+    cursor: pointer;
+}
+@media (max-width: 1024px) {
+    .input-group input{
+        width: 320px;
+    }
+}
+
+@media (max-width: 800px) {
+    .input-group input{
+        width: 200px;
+    }
+}
+
+
+

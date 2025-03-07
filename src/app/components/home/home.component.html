@@ -1,0 +1,31 @@
+<div class="contenedor-principal ">
+    <div *ngIf="btnFiltro" class="navegacion">
+        <button (click)="scrollIzquierda()">
+            <i class="bi bi-chevron-left"></i>
+        </button>
+        <button (click)="scrollDerecha()">
+            <i class="bi bi-chevron-right"></i>
+        </button>
+    </div>
+    <div class="d-none d-xl-flex align-items-center justify-content-start gap-2 mb-4 con-filter" id="con-filter">
+        <button class="btn btn-white bg-white text-dark fss-6">Todos</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">En tiempo real</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">Interfaz de programación de a...</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">Pobcast</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">Música</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">Páginas web</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">La liga</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">Video juegos</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">Mixes</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">Balón de fútbol</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">Comedia</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">Vistos</button>
+        <button class="btn btn-dark-100 fss-6 btn-filter">Novedad para ti</button>
+    </div>
+</div>
+<app-card-videos [canVideos]="8" [tipoVideo]="'h'"></app-card-videos>
+<app-card-videos [canVideos]="8" [tipoVideo]="'h'"></app-card-videos>
+<app-card-videos [canVideos]="6" [tipoVideo]="'v'"></app-card-videos>
+<app-card-videos [canVideos]="8" [tipoVideo]="'h'"></app-card-videos>
+<app-card-videos [canVideos]="6" [tipoVideo]="'v'"></app-card-videos>
+<app-card-videos [canVideos]="4" [tipoVideo]="'h'"></app-card-videos>

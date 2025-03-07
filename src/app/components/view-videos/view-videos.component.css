@@ -1,0 +1,18 @@
+.banner{
+    height: 100px;
+    object-fit: cover;
+}
+.profile_video{
+    width: 45px;
+    height: 45px;
+}
+a:hover{
+    background: #6c757d;
+}
+
+.btn-lik{
+    border-radius: 50px 0 0 50px;
+}
+.btn-lik2{
+    border-radius: 0 50px 50px 0;
+}
